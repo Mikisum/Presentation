@@ -1,0 +1,18 @@
+section
+  h3 Main process
+  div(class='flexbox')
+    figure
+      image(src='images/main.jpg') 
+      figcaption main.js
+    ul
+      | You get:
+      li Node.js APIs
+      li Electron main process modules
+    ul
+      | Common task:
+      li Create Renderer Process
+      li Call native elements
+      li Start and quit app
+  aside.notes The main process, commonly a file named main.js, is the entry point to every Electron app.
+              |It controls the life of the app, from open to close. It also calls the native elements and creates each new 
+              |renderer process in the app. The full Node API is built in.    

@@ -1,0 +1,18 @@
+section
+  section
+    h3 How Does This App Work?
+    p npm will guide us through creating a basic package.json file.
+    image(src='images/json.jpg')
+    aside.notes npm will guide us through creating a basic package.json file.
+  section
+    include sub-sllides/subSlide-1-for-s10.pug 
+      aside.notes The script specified by the main field is the startup script of your app, which will run the main process.
+                  |We have a main(main.js) file and HTML(nidex.js).The main file uses two modules –
+                  | app and BrowserWindow. The app module is used to control our application’s event lifecycle 
+                  |while the BrowserWindow module is used to create and control browser windows.
+                  |We defined a createWindow function, where we are creating a new BrowserWindow and attaching a 
+                  |URL to this BrowserWindow.
+  section 
+    include sub-sllides/subSlide-2-for-s10.pug  
+    aside.notes This is the HTML file that is rendered and shown to us when we run the app.Once your app is built, you can package 
+                |it with the command-line tool electron-packager for Mac, Windows or Linux. Add scripts for this to your package.json.

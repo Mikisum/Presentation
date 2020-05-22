@@ -6,3 +6,26 @@
   top: 150px;
   position: relative;
 }
+
+section {
+  color: white;
+  background-color: #333645;
+  // background: url('https://miro.medium.com/max/1400/1*fiCleWsMoHxGEubXLQ_6Hg.png') no-repeat;
+  // background-size:initial;
+  
+}
+
+.flexbox {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 100px;
+  height: 100px;
+  margin: 10px 20px !important
+}

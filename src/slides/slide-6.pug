@@ -1,0 +1,18 @@
+section
+  h3 Renderer process
+  div(class='flexbox')
+    figure
+      image(src='images/renderer.jpg') 
+      figcaption index.html
+    ul
+      | You get:
+      li Node.js APIs
+      li DOM APIs
+      li Electron renderer process modules
+    ul
+      | Common tasks:
+      li Design your page with HTML CSS
+      li JavaSciptpage inteactions
+  aside.notes The renderer process is a browser window in your app. Unlike the main process, there can be multiple
+              |of these and each is independent. They can also be hidden. Usually one is named index.html.They're like typical 
+              |HTML files but in Electron you've got the whole Node API available here, too, unlike any web browser.    
